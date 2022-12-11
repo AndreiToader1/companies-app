@@ -1,0 +1,250 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Andrei Toader\\RiderProjects\\CompaniesApplication\\src\\CompaniesApplication.Web\\CompaniesApplication.Web.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Andrei Toader\\RiderProjects\\CompaniesApplication\\src\\CompaniesApplication.Application\\CompaniesApplication.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Andrei Toader\\RiderProjects\\CompaniesApplication\\src\\CompaniesApplication.Application\\CompaniesApplication.Application.csproj",
+        "projectName": "CompaniesApplication.Application",
+        "projectPath": "C:\\Users\\Andrei Toader\\RiderProjects\\CompaniesApplication\\src\\CompaniesApplication.Application\\CompaniesApplication.Application.csproj",
+        "packagesPath": "C:\\Users\\Andrei Toader\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Andrei Toader\\RiderProjects\\CompaniesApplication\\src\\CompaniesApplication.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Andrei Toader\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Andrei Toader\\RiderProjects\\CompaniesApplication\\src\\CompaniesApplication.Domain\\CompaniesApplication.Domain.csproj": {
+                "projectPath": "C:\\Users\\Andrei Toader\\RiderProjects\\CompaniesApplication\\src\\CompaniesApplication.Domain\\CompaniesApplication.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Andrei Toader\\RiderProjects\\CompaniesApplication\\src\\CompaniesApplication.Domain\\CompaniesApplication.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Andrei Toader\\RiderProjects\\CompaniesApplication\\src\\CompaniesApplication.Domain\\CompaniesApplication.Domain.csproj",
+        "projectName": "CompaniesApplication.Domain",
+        "projectPath": "C:\\Users\\Andrei Toader\\RiderProjects\\CompaniesApplication\\src\\CompaniesApplication.Domain\\CompaniesApplication.Domain.csproj",
+        "packagesPath": "C:\\Users\\Andrei Toader\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Andrei Toader\\RiderProjects\\CompaniesApplication\\src\\CompaniesApplication.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Andrei Toader\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Andrei Toader\\RiderProjects\\CompaniesApplication\\src\\CompaniesApplication.Infrastructure\\CompaniesApplication.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Andrei Toader\\RiderProjects\\CompaniesApplication\\src\\CompaniesApplication.Infrastructure\\CompaniesApplication.Infrastructure.csproj",
+        "projectName": "CompaniesApplication.Infrastructure",
+        "projectPath": "C:\\Users\\Andrei Toader\\RiderProjects\\CompaniesApplication\\src\\CompaniesApplication.Infrastructure\\CompaniesApplication.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Andrei Toader\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Andrei Toader\\RiderProjects\\CompaniesApplication\\src\\CompaniesApplication.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Andrei Toader\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Andrei Toader\\RiderProjects\\CompaniesApplication\\src\\CompaniesApplication.Application\\CompaniesApplication.Application.csproj": {
+                "projectPath": "C:\\Users\\Andrei Toader\\RiderProjects\\CompaniesApplication\\src\\CompaniesApplication.Application\\CompaniesApplication.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Andrei Toader\\RiderProjects\\CompaniesApplication\\src\\CompaniesApplication.Web\\CompaniesApplication.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Andrei Toader\\RiderProjects\\CompaniesApplication\\src\\CompaniesApplication.Web\\CompaniesApplication.Web.csproj",
+        "projectName": "CompaniesApplication.Web",
+        "projectPath": "C:\\Users\\Andrei Toader\\RiderProjects\\CompaniesApplication\\src\\CompaniesApplication.Web\\CompaniesApplication.Web.csproj",
+        "packagesPath": "C:\\Users\\Andrei Toader\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Andrei Toader\\RiderProjects\\CompaniesApplication\\src\\CompaniesApplication.Web\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Andrei Toader\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Andrei Toader\\RiderProjects\\CompaniesApplication\\src\\CompaniesApplication.Application\\CompaniesApplication.Application.csproj": {
+                "projectPath": "C:\\Users\\Andrei Toader\\RiderProjects\\CompaniesApplication\\src\\CompaniesApplication.Application\\CompaniesApplication.Application.csproj"
+              },
+              "C:\\Users\\Andrei Toader\\RiderProjects\\CompaniesApplication\\src\\CompaniesApplication.Infrastructure\\CompaniesApplication.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Andrei Toader\\RiderProjects\\CompaniesApplication\\src\\CompaniesApplication.Infrastructure\\CompaniesApplication.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

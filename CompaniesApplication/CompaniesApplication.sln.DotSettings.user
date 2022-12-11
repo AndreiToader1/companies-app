@@ -1,0 +1,16 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=80c01ef0_002D2ca3_002D4c5e_002Dae79_002De4e6be9a6c46/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Session" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;Or&gt;&#xD;
+    &lt;And&gt;&#xD;
+      &lt;TestAncestor&gt;&#xD;
+        &lt;TestId&gt;xUnit::20E56FF0-3C01-4349-BD1D-F45BAB1F00E8::net6.0::CompaniesApplication.Tests.Queries.GetCompaniesQueryTests&lt;/TestId&gt;&#xD;
+      &lt;/TestAncestor&gt;&#xD;
+      &lt;Project Location="C:\Users\Andrei Toader\RiderProjects\CompaniesApplication\CompaniesApplication.Tests" Presentation="&amp;lt;CompaniesApplication.Tests&amp;gt;" /&gt;&#xD;
+      &lt;Namespace&gt;CompaniesApplication.Tests.Queries&lt;/Namespace&gt;&#xD;
+    &lt;/And&gt;&#xD;
+    &lt;And&gt;&#xD;
+      &lt;Project Location="C:\Users\Andrei Toader\RiderProjects\CompaniesApplication\CompaniesApplication.Tests" Presentation="&amp;lt;CompaniesApplication.Tests&amp;gt;" /&gt;&#xD;
+      &lt;Namespace&gt;CompaniesApplication.Tests.Services&lt;/Namespace&gt;&#xD;
+    &lt;/And&gt;&#xD;
+  &lt;/Or&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

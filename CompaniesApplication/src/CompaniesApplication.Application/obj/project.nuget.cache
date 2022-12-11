@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "rS7j8Yc2Pe/qSMpGcXnWK5yrbZafTAjnh16WlvMO9EIYvHDj3RDI9AxqoZ8uK/zAsIMOLaE8J+T9itmrWnQSfw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Andrei Toader\\RiderProjects\\CompaniesApplication\\src\\CompaniesApplication.Application\\CompaniesApplication.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Andrei Toader\\.nuget\\packages\\mediatr\\11.1.0\\mediatr.11.1.0.nupkg.sha512",
+    "C:\\Users\\Andrei Toader\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

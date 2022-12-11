@@ -1,0 +1,32 @@
+﻿@using CompaniesApplication.Application.Enums
+@{
+    ViewData["Title"] = "Home Page";
+    @model List<CompanyViewModel>
+}
+
+<div class="text-center">
+    <table>
+        <tr>
+            <td>Company Name</td>
+            <td>Years in business</td>
+            <td>Contact Name</td>
+            <td>Contact Phone number</td>
+            <td>Contact email</td>
+        </tr>
+        @foreach (var company in Model)
+        {
+            <tr>
+                <td onclick="location.href='@Url.Action("Index", "Home", new {sortingField= SortingField.CompanyName})'">@Html.DisplayFor(c => company.Name)</td>
+                <td onclick="location.href='@Url.Action("Index", "Home", new {sortingField= SortingField.YearsInBusinessThenCompanyName})'">@Html.DisplayFor(c => company.YearsInBusiness)</td>
+                <td onclick="location.href='@Url.Action("Index", "Home", new {sortingField= SortingField.ContactName})'">@Html.DisplayFor(c => company.ContactName)</td>
+                <td>@Html.DisplayFor(c => company.ContactPhoneNumber)</td>
+                <td>@Html.DisplayFor(c => company.ContactEmail)</td>
+            </tr>
+        }
+    </table>
+
+     @using (Html.BeginForm("ExportCompaniesCsv", "Home", routeValues:new {sortingField = Context.Request.Query["sortingField"]}, FormMethod.Post))
+        {
+            <input type="submit" id="btnexportcsv" value="Export"/>
+        }
+</div>
